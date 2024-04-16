@@ -1,38 +1,59 @@
 .App {
   text-align: center;
+  font-family: Calibri;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#map
+{
+    height: 70vh;
+    width: 70vw;
+    margin: 0 auto;
+    border-radius: 25px;
+    border: 1px solid black;
+    font-family: Calibri;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.searchbar
+{
+  margin: 0.5%;
+  font-family: Calibri;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.favouritesbutton
+{
+  margin: 0.5%;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  font-family: Calibri;
 }
 
-.App-link {
-  color: #61dafb;
+.popupbutton
+{
+  margin: 0 10px;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  font-family: Calibri;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body
+{
+    color: white;
+    text-align: center;
+    background-color: #1c3d4a; /* #162d38 #1c3d4a */ 
+}
+
+.notification {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1000;
+  cursor: pointer;
+  font-family: Calibri;
 }

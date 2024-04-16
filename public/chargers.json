@@ -1,0 +1,12 @@
+[
+    { "coordinates": [52.516275, 13.377704], "name": "Brandenburg Gate" },
+    { "coordinates": [52.518623, 13.376198], "name": "Reichstag Building" },
+    { "coordinates": [52.517072, 13.389002], "name": "Berlin Wall Memorial" },
+    { "coordinates": [52.521919, 13.413215], "name": "Alexanderplatz" },
+    { "coordinates": [52.509648, 13.375944], "name": "Potsdamer Platz" },
+    { "coordinates": [52.507349, 13.390048], "name": "Checkpoint Charlie" },
+    { "coordinates": [52.513810, 13.392070], "name": "Gendarmenmarkt" },
+    { "coordinates": [52.520815, 13.409419], "name": "Fernsehturm Berlin" },
+    { "coordinates": [52.522100, 13.402271], "name": "Hackescher Markt" },
+    { "coordinates": [52.516666, 13.402222], "name": "Museum Island" }
+]
